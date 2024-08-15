@@ -60,14 +60,8 @@ class Test_OrangeHRM_Login():
 
         # Check if the login was successful
             if Locators().dashboard_url == self.driver.current_url:
-                # print("SUCCESS : Login with Valid Username {a} & Password {b}".format(a=test_username, b=test_password))
-                # excel_handler.write_data(2,12,Locators.pass_data)
-                # Assert that Login is successful
                 assert True, "Login successful"
             else:
-                # print("ERROR : Unable to Login with Username {a} & Password {b}".format(a=test_username, b=test_password))
-                # excel_handler.write_data(2, 12, Locators.fail_data)
-                # Assert that Login is unsuccessful
                 assert False, "Login Unsuccessful with valid username & password"
 
         # Handle any exceptions that may occur
