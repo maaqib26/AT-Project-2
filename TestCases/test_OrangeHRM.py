@@ -1,5 +1,5 @@
 """
-test_OrangeHRM.py - Script to validate Login and PIM test cases
+test_OrangeHRM.py - Script to validate reset, Admin Headers and Side Menu Elemenets
 """
 
 # Import necessary libraries
